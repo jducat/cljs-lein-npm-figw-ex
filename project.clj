@@ -8,7 +8,8 @@
                  [org.clojure/clojurescript "1.7.48"]
                  [org.clojure/core.async "0.1.346.0-17112a-alpha"]
                  [reagent "0.5.1"]
-                 [kioo "0.4.1"]]
+                 [kioo "0.4.1"]
+                 [javax.xml.bind/jaxb-api "2.3.0"]]
 
   :npm {:dependencies [[express "4.13.3"]
                        [xmlhttprequest "*"]

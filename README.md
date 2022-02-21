@@ -61,3 +61,11 @@ Based on an app concept by Marian Schubert.
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
+
+# Update (21/02/22)
+
+## 1
+
+To get to run locally, needed to add a dependency to the project file as per:
+https://stackoverflow.com/questions/56779380/clojure-lein-figwheel-and-classnotfoundexception-javax-xml-bind-datatypeconver
+ 
