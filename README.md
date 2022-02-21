@@ -6,6 +6,9 @@ Attempting to modify for basic example with re-frame instead of reagent.
 
 The readme for that file is provided below:
 
+Note, another version of this which seems to have been updated less recently than the above model is:
+https://github.com/njordhov/cljsnode
+
 # cljs lein-npm example
 
 Clojurescript based reference SPA on Heroku using node express, bootstrap,
@@ -32,8 +35,8 @@ Click on the displayed text to refresh.
 
 To start a server on Heroku:
 
-    heroku apps:create
-    git push heroku master
+    heroku create <new app name>
+    git push heroku main
     heroku open
 
 This will open the site in your browser.
@@ -68,4 +71,3 @@ your option) any later version.
 
 To get to run locally, needed to add a dependency to the project file as per:
 https://stackoverflow.com/questions/56779380/clojure-lein-figwheel-and-classnotfoundexception-javax-xml-bind-datatypeconver
- 
