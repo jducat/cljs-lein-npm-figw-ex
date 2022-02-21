@@ -17,3 +17,4 @@ package.json
 .idea
 /.clj-kondo
 /.lsp
+/.calva
